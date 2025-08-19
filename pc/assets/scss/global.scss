@@ -1,0 +1,27 @@
+
+$test-color: #000;
+* {
+  margin: 0;
+  color: #fff;
+}
+
+/* body {
+  background-color: rgb(34,41,51);
+} */
+
+a {
+  text-decoration: none;
+}
+
+.nuxt-link-active {
+  text-decoration: none;
+}
+
+.page-enter-active,
+.page-leave-active {
+  transition: opacity .2s;
+}
+.page-enter,
+.page-leave-active {
+  opacity: 0;
+}
